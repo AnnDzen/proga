@@ -3,20 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap" rel="stylesheet">
     <title>It-incubator precourse</title>
 </head>
 <body>
-    <header>
-        <span>IT-INCUBATOR</span>
+    <header class="headar">
+        <span class="headartext">IT-INCUBATOR</span>
     </header>
 
-    <section data-cy="hw1-section-main-pre">
+    <section class="first" data-cy="hw1-section-main-pre">
             <h1>Судоргина Анна Дмитриевна</h1>
-            <p>Работаю в Банке, хочу познать Дзен в програмировании</p>
+            <p class="firstext">Работаю в Банке, хочу познать Дзен в програмировании</p>
             <img src="./assses/taks.jpg " alt="такса">        
     </section>
-    <section data-cy="hw1-section-about-pre">
-        <select name="city">
+    <section class="second" data-cy="hw1-section-about-pre">
+        <select class="citylist" name="city">
             <option value="">Grodno</option>
             <option value="" selected>Brest </option>
             <option value="">Minsk</option>
@@ -24,15 +28,15 @@
         </select>
         <div data-cy="hw1-unordered-list-box-pre">
             <h2>Любимые Блюда</h2>
-            <ul>
-                <li>Лазанья</li>
-                <li>Картошка с мясом</li>
-                <li>Гречка с курицей</li>
+            <ul class="list">
+                <li class="forlist" >Лазанья</li>
+                <li class="forlist">Картошка с мясом</li>
+                <li class="forlist">Гречка с курицей</li>
             </ul>
         </div>
         <div data-cy="hw1-ordered-list-box-pre">
             <h2>Любимые исполнители</h2>
-            <ol>
+            <ol class="lisbest">
                 <li>holidayboy</li>
                 <li>Мот</li>
                 <li>Лазарев</li>
@@ -40,16 +44,16 @@
         </div>
         <div data-cy="hw1-skills-box-pre">
             <h2>Мои скиллы</h2>
-            <label>
+            <label class="lable">
                 <input type="checkbox" name="HTML" value="HTML" checked>
                 HTML
             </label>
-            <label>                
+            <label class="lable">                
                 <input type="checkbox" name="CSS" value="CSS">
                 CSS
                 
             </label>
-            <label>
+            <label class="lable">
                 <input type="checkbox" name="JS" value="JS">
                 JS
             </label>
