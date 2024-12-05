@@ -16,6 +16,9 @@ ul {
     background-color: #2965f1;
     padding-top: 23px;
     padding-bottom: 23px;
+}
+
+.maintext {
     font-weight: 700;
     font-size: 20px;
     color: #fff;
@@ -23,9 +26,8 @@ ul {
 
 .first {
     background: #fafaff;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    height: 100vh;
+    padding: 60px 0px;
+    min-height: 100vh;
 }
 
 h1 {
