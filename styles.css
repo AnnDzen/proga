@@ -34,19 +34,19 @@ ul {
 }
 
 h1 {
-    font-weight: 700px;
+    font-weight: 700;
     font-size: 48px;
     color: #303030;
     margin-bottom: 20px;
 }
 
 .firstext {
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 18px;
     color: #303030;
 }
 
-img {
+.main-image {
     max-width: 715px;
     max-height: 500px;
 }
